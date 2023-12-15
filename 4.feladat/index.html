@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Termékkezelő</title>
+</head>
+<body>
+    <h1>Termékkezelő</h1>
+    <label for="productName">Terméknév:</label>
+    <input type="text" id="productName" placeholder="Terméknév">
+
+    <label for="productPrice">Ár:</label>
+    <input type="number" id="productPrice" placeholder="Ár">
+
+    <button onclick="addProduct()">Hozzáad</button>
+    <button onclick="findCheapestProduct()">Legolcsóbb termék</button>
+    <button onclick="calculateAverageAndDeviation()">Statisztika</button>
+
+    <ul id="productList"></ul>
+    <p id="result"></p>
+    <p id="statistics"></p>
+
+    <script src="productManager.js"></script>
+</body>
+</html>
