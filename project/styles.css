@@ -1,0 +1,68 @@
+/* main.css */
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f2; /* Light Cream */
+    color: #574f4e; /* Dark Taupe */
+}
+
+header {
+    background-color: #7a9e9f; /* Teal Blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+h1 {
+    color: white; 
+}
+
+
+
+h2 {
+    color: #7a9e9f; /* Teal Blue */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7a9e9f; /* Teal Blue */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    img {
+        border-radius: 4px;
+    }
+}
